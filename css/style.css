@@ -1,0 +1,60 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+nav{
+	height:180px ;
+	background-image: url("../images/fundo3.jpg");
+	background-repeat:repeat
+
+	
+}
+nav a{
+		color: #000000 !important;
+}
+nav a:hover{
+	color:#8B2323!important;
+	
+	font-weight: bold;
+}
+#nav-mobile{
+	margin-top:110px;
+}
+footer{
+	background-image: url("../images/fundo3.jpg");
+	background-repeat:repeat
+	
+}
+footer .row{
+	color: #27408B !important;
+}
+footer .rodaconteiners{
+	display:inline-block;
+	
+	height: auto;
+	text-align:center;
+	
+}
+footer #lateral_esquerda{
+	width:30%;
+}
+footer #lateral_centro{
+	width:35%;
+	text-align:center;
+}
+footer #lateral_direita{
+	width:30%;
+}
+.footer-copyright .container{
+	
+}
