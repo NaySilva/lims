@@ -12,6 +12,34 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+
+.conteiner-busca-nibble{
+	margin-top:50px;
+	position:relative;
+	float:right;
+	width:260px;
+	height:45px !important;
+	border: 2px solid #0000CD;
+	height:auto;
+	background-color:white;
+	border-radius:10px 10px 10px 10px;
+	-webkit-box-shadow: 18px 3px 56px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 3px 56px -17px rgba(0,0,0,0.75);
+box-shadow: 18px 3px 56px -17px rgba(0,0,0,0.75);
+z-index:2000; 
+}
+
+.busca-nibble input{
+    margin-top:10px !important;
+	font-size:18px;
+	width:200px;
+	height: 30px;
+	border:0px;
+
+	
+}
+
 nav{
 	height:180px ;
 	background-image: url("../images/fundo3.jpg");
@@ -23,7 +51,7 @@ nav a{
 		color: #000000 !important;
 }
 nav a:hover{
-	color:#8B2323!important;
+	color:#0000CD!important;
 	
 	font-weight: bold;
 }
