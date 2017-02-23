@@ -6,6 +6,48 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+#formulario-nibble{/*inicio formulario nibble-flutuante */
+	display:none;
+}
+#formulario-nibble{
+	margin: 0 auto;
+	
+	background-color:#FFFFFF;
+	margin-top:30%;
+	width:auto;
+	-webkit-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+border-radius:3px 3px 3px 3px;
+}
+#formulario-nibble {
+	text-align:center;
+}
+
+
+/*
+#formulario-nibble input{
+	height:30px;
+	width:300px;
+	
+}
+*/
+#formulario-nibble #botao-nibble-fechar{
+	text-align:right;
+	
+}
+#formulario-nibble #botao-nibble-fechar #botao_fechar:hover{
+	cursor:pointer;
+	color:blue;
+}
+
+#botao-nibble-fechar{
+	z-index: 2000;
+}/*fim formulario nibble-flutuante*/
+
+
 .icon-block {
   padding: 0 15px;
 }
