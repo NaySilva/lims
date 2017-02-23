@@ -20,9 +20,9 @@
 	
 		var left = (largura-larguraform)/2;
 	
-		$('#formulario-nibble ~ nav').css('opacity','0.2');
-		$('#formulario-nibble ~ div').css('opacity','0.2');
-		$('#formulario-nibble ~ footer').css('opacity','0.2');
+		$('#formulario-nibble ~ nav').css('opacity','0.1');
+		$('#formulario-nibble ~ div').css('opacity','0.1');
+		$('#formulario-nibble ~ footer').css('opacity','0.1');
 		
 		
 		$('#formulario-nibble').css('margin-top','100px');
