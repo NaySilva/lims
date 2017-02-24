@@ -6,6 +6,116 @@
  * Made By MaterializeCSS.com
  */
 
+#nibble_lista ul{/*estilo da listagem de publicações*/
+	list-style:none;
+}
+#nibble_lista ul img{
+	max-width:200px;
+	max-height:300px;
+}
+#nibble_lista ul .conteudo{
+	  position:relative;
+	  width:200px;
+	  height:80px;
+	  overflow:hidden;
+}
+#nibble_lista ul .titulo{
+	font-family:"Roboto",sans-serif;
+	 font-size:18px;
+	 width:200px;
+	 height:auto;
+	 font-weight:bolder;
+}
+
+
+#nibble_lista{
+	display:none;
+}
+#nibble_lista ul .link_continuar{ 
+	width:200px;
+	text-align:right;
+}
+
+#nibble_lista ul .listas{
+	border: solid 1px #CECECE;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+	display:inline-block;
+	margin-left: 50px;
+	margin-top:50px;
+	padding: 10px 20px 10px 20px;
+	-webkit-box-shadow: 0px 0px 34px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 34px -14px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 34px -14px rgba(0,0,0,0.75);
+}
+#nibble_lista .paginacao{
+	text-align:center;
+	
+	
+	margin-top:20px !important;
+	
+	
+}
+
+#nibble_lista a:hover{
+	 color:#2F4F4F;
+	 font-weight:bolder;
+	
+}
+#nibble_lista .tempo{
+	width:200px;
+	font-size:12px;
+}
+#nibble_lista .tempo img{
+	max-height:15px;
+	max-width:15px;
+}
+#nibble_lista .tempo .img2{
+	margin-left:50px;
+}
+#nibble_lista .tempo .tempo_valores{
+	margin-left:5px;
+}/* fim do estilo da listagem de publicações*/
+
+
+
+#pj_projetos{/*inicio listagem projetos*/
+	display:none;
+	
+	
+}
+
+#pj_projetos a:hover{
+	 color:#000080;
+	
+}
+#pj_projetos .title{
+	font-weight: bolder;
+	font-size:18px;
+}
+#pj_projetos .dt_inicio{
+	font-weight:bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+	color:#000080;
+}
+#pj_projetos .dt_conteudo{
+	font-size:12px;
+}
+
+#pj_projetos .paginacao{
+	text-align:center;
+
+}
+#pj_projetos #lis_projetos{
+	-webkit-box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75);
+}
+
+
 
 
 #formulario-nibble{/*inicio formulario nibble-flutuante */
@@ -27,13 +137,7 @@ border-radius:3px 3px 3px 3px;
 }
 
 
-/*
-#formulario-nibble input{
-	height:30px;
-	width:300px;
-	
-}
-*/
+
 #formulario-nibble #botao-nibble-fechar{
 	text-align:right;
 	
@@ -46,6 +150,51 @@ border-radius:3px 3px 3px 3px;
 #botao-nibble-fechar{
 	z-index: 2000;
 }/*fim formulario nibble-flutuante*/
+
+#nibble_membros{ /*div onde possui a lista de membros*/
+	display:none;
+}
+#nibble_membros .detalhe_membro{
+	font-size:16px;
+}
+#nibble_membros .detalhe_membro .material-icons{
+	font-size:20px !important;
+}
+#nibble_membros .detalhe_membro .perfil{
+	font-size: 12px;
+	font-weight:bold;
+}
+#nibble_membros .detalhe_membro .contato{
+	font-size: 12px;
+	font-weight:bold;
+	
+}
+
+#nibble_membros .imagens_membros{
+	text-align:right;
+}
+#nibble_membros ul{
+	
+}
+
+#nibble_membros .paginacao{
+	text-align:center;
+}
+#nibble_membros tr .perfil{
+	text-align:left;
+}
+
+#nibble_membros .colunas_membros{
+	display:inline-block;
+	width: 300px;
+	
+	
+}
+#nibble_membros .title{
+	font-size:14px;
+	font-weight:bolder;
+}  /* fim da div onde possui a lista de membros*/
+
 
 
 .icon-block {
@@ -84,9 +233,10 @@ z-index:2000;
 
 nav{
 	height:180px ;
-	background-image: url("../images/fundo3.jpg");
-	background-repeat:repeat
-
+	background-color:#FFFFFF;
+	-webkit-box-shadow: inset -73px -85px 94px -106px rgba(0,0,0,1);
+-moz-box-shadow: inset -73px -85px 94px -106px rgba(0,0,0,1);
+box-shadow: inset -73px -85px 94px -106px rgba(0,0,0,1);
 	
 }
 nav a{
@@ -101,12 +251,14 @@ nav a:hover{
 	margin-top:110px;
 }
 footer{
-	background-image: url("../images/fundo3.jpg");
-	background-repeat:repeat
-	
+	background-color:#FFFFFF !important;
+	-webkit-box-shadow: inset 8px -1px 300px -146px rgba(0,0,0,1);
+-moz-box-shadow: inset 8px -1px 300px -146px rgba(0,0,0,1);
+box-shadow: inset 8px -1px 300px -146px rgba(0,0,0,1);
 }
 footer .row{
 	color: #27408B !important;
+	background-color:#FFFFFF !important;
 }
 footer .rodaconteiners{
 	display:inline-block;
